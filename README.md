@@ -21,7 +21,12 @@ Control your GCP virtual machines with:
    # Windows (PowerShell)
    powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
    ```
-2. Get a GCP service account JSON key file with VM management permissions
+2. **Install git** (if not already installed):
+   * [windows](https://git-scm.com/downloads/win)
+   * [mac](https://git-scm.com/downloads/mac)
+   * linux, use your package manager
+
+4. Get a GCP service account JSON key file with VM management permissions
 
 ### Quick Start
 **Windows Users:** Download and double-click [`start-gui.bat`](start-gui.bat) for one-click launch
